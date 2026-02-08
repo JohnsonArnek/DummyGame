@@ -1,7 +1,7 @@
 from content.races.dwarf import Dwarf
 from content.races.human import Human
 from content.backgrounds.pit_slave import PitSlave
-from engine.core import Character
+from engine.character import Character
 
 class CharacterCreator:
     def run(self):
